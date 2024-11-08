@@ -80,8 +80,8 @@ article p {
 /* Footer */
 footer {
     background-color: #4F82FF;  /* Blue background for footer */
-    color: white;
-    text-align: center;
+    color: #F4E894;
+    text-align: right;
     padding: 10px;
     position: fixed;
     bottom: 0;

@@ -3,7 +3,7 @@ body {
     font-family: 'Raleway', sans-serif;
     margin: 0;
     background-color: #FC82B2;
-    color: #4F82FF;
+    color: #ffffff;
     line-height: 1.6;
 }
 
@@ -73,7 +73,7 @@ article p {
 
 /* Footer */
 footer {
-    background-color: #FC82B2;
+    background-color: #4F82FF;
     color: white;
     text-align: center;
     padding: 10px;

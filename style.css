@@ -2,74 +2,68 @@
 body {
     font-family: 'Raleway', sans-serif;
     margin: 0;
-    background-color: #FC82B2;
+    background-color: #FC82B2;  /* Pink background for home and about pages */
     color: #ffffff;
     line-height: 1.6;
 }
 
 /* Header */
 header {
-    background-color: #4F82FF;
-    text-align: center;
+    background-color: #FC82B2;  /* Pink background for blog post pages */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     padding: 20px;
 }
 
 header .title-image {
-    width: 60%; /* Set to desired size */
+    width: 25%;  /* Smaller size */
     height: auto;
-    max-width: none; /* Remove max-width limitation */
-    object-fit: contain; /* Maintains aspect ratio without distortion */
+    object-fit: contain;  /* Maintains aspect ratio */
 }
 
 header nav {
-    margin-top: 10px;
+    display: flex;
+    justify-content: flex-end;
 }
 
 header nav a {
     color: white;
     text-decoration: none;
     font-size: 18px;
+    margin-left: 10px;  /* Space between links */
 }
 
 header nav a:hover {
     text-decoration: underline;
 }
 
-/* Main content */
+/* Main content for individual blog posts */
 main {
+    background-color: #4F82FF;  /* Blue background for individual blog post pages */
     max-width: 800px;
     margin: 0 auto;
     padding: 20px;
 }
 
 h1 {
-    color: #ffffff;
+    color: #ffffff;  /* White heading text for blog posts */
 }
 
-/* Blog post list */
-.post-list article {
+/* Blog post article styles */
+article {
     background-color: #F4E894;
     margin-bottom: 20px;
     padding: 20px;
     border-radius: 5px;
 }
 
-.post-list article h2 a {
-    color: #4F82FF;
-    text-decoration: none;
-}
-
-.post-list article h2 a:hover {
-    text-decoration: underline;
-}
-
-/* Individual post styles */
 article h1 {
-    color: #FC82B2;
+    color: #FC82B2;  /* Pink color for blog post heading */
 }
 
 article p {
-    color: #4F82FF;
+    color: #ffffff;  /* White text for blog post content */
 }
 
 /* Footer */

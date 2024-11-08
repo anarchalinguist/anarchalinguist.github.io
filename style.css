@@ -2,33 +2,38 @@
 body {
     font-family: 'Raleway', sans-serif;
     margin: 0;
-    background-color: #FC82B2;
+    background-color: #FC82B2;  /* Pink body background for all pages */
     color: #ffffff;
     line-height: 1.6;
 }
 
 /* Header */
 header {
-    background-color: #4F82FF;
-    text-align: center;
+    background-color: #4F82FF;  /* Blue background for all pages */
+    display: flex;
+    justify-content: space-between;  /* Space between title image and navigation */
+    align-items: center;
     padding: 20px;
 }
 
+/* Title Image (left side) */
 header .title-image {
-    width: 60%; /* Set to desired size */
+    width: 25%;  /* Smaller size for the title image */
     height: auto;
-    max-width: none; /* Remove max-width limitation */
-    object-fit: contain; /* Maintains aspect ratio without distortion */
+    object-fit: contain;  /* Keeps aspect ratio */
 }
 
+/* Navigation (right side) */
 header nav {
-    margin-top: 10px;
+    display: flex;
+    justify-content: flex-end;
 }
 
 header nav a {
     color: white;
     text-decoration: none;
     font-size: 18px;
+    margin-left: 10px;  /* Space between navigation buttons */
 }
 
 header nav a:hover {
@@ -43,7 +48,7 @@ main {
 }
 
 h1 {
-    color: #ffffff;
+    color: #FC82B2;  /* Pink heading text for consistency */
 }
 
 /* Blog post list */
@@ -74,7 +79,7 @@ article p {
 
 /* Footer */
 footer {
-    background-color: #4F82FF;
+    background-color: #4F82FF;  /* Blue background for footer */
     color: white;
     text-align: center;
     padding: 10px;

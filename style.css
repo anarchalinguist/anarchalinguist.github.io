@@ -16,8 +16,8 @@ header {
 
 header .title-image {
     max-width: 300px;
-    width: 75%;
-    height: auto;
+    width: 75%; /* Resizes the image to 75% of its original size */
+    height: auto; /* Maintains aspect ratio */
 }
 
 header nav {

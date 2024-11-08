@@ -15,7 +15,7 @@ header {
 }
 
 header .title-image {
-    width: 90%; /* Set to desired size */
+    width: 80%; /* Set to desired size */
     height: auto;
     max-width: none; /* Remove max-width limitation */
     object-fit: contain; /* Maintains aspect ratio without distortion */

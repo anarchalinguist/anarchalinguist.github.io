@@ -48,7 +48,7 @@ main {
 }
 
 h1 {
-    color: #ffffff; 
+    color: #4F82FF; 
 }
 
 /* Blog post list */
@@ -70,11 +70,11 @@ h1 {
 
 /* Individual post styles */
 article h1 {
-    color: #ffffff;
+    color: #4F82FF;
 }
 
 article p {
-    color: #ffffff;
+    color: #4F82FF;
 }
 
 /* Footer */

@@ -16,7 +16,7 @@ header {
 
 header .title-image {
     max-width: 300px;
-    width: 95%; /* Resizes the image to X% of its original size */
+    width: 100%; /* Resizes the image to X% of its original size */
     height: auto; /* Maintains aspect ratio */
 }
 

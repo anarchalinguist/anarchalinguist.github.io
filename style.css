@@ -87,3 +87,33 @@ footer {
     bottom: 0;
     width: 100%;
 }
+
+
+/* Blog Post Page Styles */
+.blog-post {
+    background-color: #FC82B2; /* Keep the pink background for blog post pages */
+    color: #ffffff; /* Default text color for the body */
+}
+
+.blog-post article h1 {
+    font-size: 2.5em;
+    color: #4F82FF; /* Blue for the title */
+    background-color: #F4E894; /* Yellow background for the title */
+    text-align: center;
+    padding: 10px; /* Optional: add padding for spacing around the text */
+}
+
+
+.blog-post article p.date {
+    color: #F4E894; /* Yellow for the date */
+    font-size: 1.2em;
+    text-align: right;
+}
+
+.blog-post article p.content {
+    font-size: 1.5em;
+    color: #ffffff; /* White text color */
+    padding: 15px;
+    text-align: center;
+    background-color: transparent; /* No background color */
+}

@@ -82,7 +82,8 @@ footer {
     background-color: #4F82FF;  /* Blue background for footer */
     color: #F4E894;
     text-align: right;
-    padding: 10px 30px 10px 10px; /* Add extra space on the right */;
+    padding: 10px;
+    margin-right: 25px; /* Adjust as needed */
     position: fixed;
     bottom: 0;
     width: 100%;
